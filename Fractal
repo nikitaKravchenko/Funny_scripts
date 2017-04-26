@@ -1,0 +1,14 @@
+#http://cloud.sagemath.com/projects/93ac63c8-1b22-46f1-a9c5-06e189785132/files/2017-04-27-001202.sagews
+def mandelbrot(real, imag, N = 200):
+    c = complex(real, imag)
+    i = 0
+    z = c
+    while (i < N) and (abs(z) < 4):
+        i += 1
+        z = pow(z, 2) + c
+    return i
+
+#contour_plot(mandelbrot, (-2, 1), (-1, 1))
+
+P = contour_plot(mandelbrot, (-2, 1), (-1, 1), plot_points=400, cmap='hot')
+P.show(axes_labels=('$Re(c)$', '$Im(c)$'), title='Mandelbrot set \n $z_{n+1} = z^2_n + c$', fontsize=7).show(axes_labels=('$Re(c)$', '$Im(c)$'), title='Mandelbrot set \n $z_{n+1} = z^2_n + c$', fontsize=7)
