@@ -1,0 +1,8 @@
+Hello stream word
+Enter a number>2 squeared is 4
+Bye
+Enter a number>3 squeared is 9
+Bye
+Enter a number>10 squeared is 100
+Bye
+Enter a number>
