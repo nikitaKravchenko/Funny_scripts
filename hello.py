@@ -1,5 +1,5 @@
 #----------------------------------------------
- Animated Banner Program
+# Animated Banner Program
 # More programs at UsingPython.com/programs
 #----------------------------------------------
 
